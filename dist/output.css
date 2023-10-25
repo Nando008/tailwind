@@ -568,24 +568,22 @@ video {
   }
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mx-2 {
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.ml-2 {
   margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
 }
 
 .mr-2 {
@@ -612,14 +610,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -638,10 +628,6 @@ video {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-14 {
-  height: 3.5rem;
 }
 
 .h-16 {
@@ -664,22 +650,9 @@ video {
   height: 16rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
 .h-max {
   height: -moz-max-content;
   height: max-content;
-}
-
-.max-h-max {
-  max-height: -moz-max-content;
-  max-height: max-content;
 }
 
 .w-3 {
@@ -706,16 +679,12 @@ video {
   width: 16rem;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
 .max-w-6xl {
   max-width: 72rem;
 }
 
-.snap-center {
-  scroll-snap-align: center;
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .grid-cols-2 {
@@ -734,16 +703,8 @@ video {
   flex-direction: column;
 }
 
-.flex-col-reverse {
-  flex-direction: column-reverse;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
@@ -764,24 +725,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-7 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -834,34 +777,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'https\:\/\/as-images\.apple\.com\/is\/MME73_AV2\?wid\=1000\&hei\=1000\&fmt\=jpeg\&qlt\=95\&\.v\=1632861338000\'\)\] {
   background-image: url('https://as-images.apple.com/is/MME73_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1632861338000');
-}
-
-.bg-\[url\(\'https\:\/\/tiendasishop\.com\/media\/catalog\/product\/m\/v\/mv7n2lz_a_1\.jpg\'\)\] {
-  background-image: url('https://tiendasishop.com/media/catalog/product/m/v/mv7n2lz_a_1.jpg');
-}
-
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/files\/iPhone_15_Pro_Max_Natural_Titanium_PDP_Image_Position-1__COES_6d1f79a5-044c-40d2-8182-9e75e271b9e4_713x\.jpg\?v\=1695222175\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/files/iPhone_15_Pro_Max_Natural_Titanium_PDP_Image_Position-1__COES_6d1f79a5-044c-40d2-8182-9e75e271b9e4_713x.jpg?v=1695222175');
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/files\/iPhone_15_Pro_Black_Titanium_PDP_Image_Position-1__COES_3be5d9c6-64c1-4869-8dde-3dae2d5c0ae7_713x\.jpg\?v\=1695222894\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/files/iPhone_15_Pro_Black_Titanium_PDP_Image_Position-1__COES_3be5d9c6-64c1-4869-8dde-3dae2d5c0ae7_713x.jpg?v=1695222894');
 }
 
 .bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/files\/iPhone15_Plus_Black_PDP_Image_Position-1__COES_713x\.jpg\?v\=1695225654\'\)\] {
@@ -872,36 +789,12 @@ video {
   background-image: url('https://mac-center.com/cdn/shop/files/iPhone15_Yellow_PDP_Image_Position-1__COES_abb4ba1e-20d7-48d6-ba41-90262af52757_713x.jpg?v=1695219769');
 }
 
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-7380043_713x\.jpg\?v\=1673373173\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-7380043_713x.jpg?v=1673373173');
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/files\/iPhone_15_Pro_Black_Titanium_PDP_Image_Position-1__COES_3be5d9c6-64c1-4869-8dde-3dae2d5c0ae7_713x\.jpg\?v\=1695222894\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/files/iPhone_15_Pro_Black_Titanium_PDP_Image_Position-1__COES_3be5d9c6-64c1-4869-8dde-3dae2d5c0ae7_713x.jpg?v=1695222894');
 }
 
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-7379982_713x\.jpg\?v\=1673377317\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-7379982_713x.jpg?v=1673377317');
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-8943534_713x\.jpg\?v\=1678908919\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-8943534_713x.jpg?v=1678908919');
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-7379875_713x\.jpg\?v\=1678215692\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-7379875_713x.jpg?v=1678215692');
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6376523_713x\.jpg\?v\=1660430899\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6376523_713x.jpg?v=1660430899');
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6376495_713x\.jpg\?v\=1660429014\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6376495_713x.jpg?v=1660429014');
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6206251_713x\.jpg\?v\=1661520210\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6206251_713x.jpg?v=1661520210');
-}
-
-.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6590257_713x\.jpg\?v\=1660431696\'\)\] {
-  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6590257_713x.jpg?v=1660431696');
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/files\/iPhone_15_Pro_Max_Natural_Titanium_PDP_Image_Position-1__COES_6d1f79a5-044c-40d2-8182-9e75e271b9e4_713x\.jpg\?v\=1695222175\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/files/iPhone_15_Pro_Max_Natural_Titanium_PDP_Image_Position-1__COES_6d1f79a5-044c-40d2-8182-9e75e271b9e4_713x.jpg?v=1695222175');
 }
 
 .bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/Airpods_PDP_Image_Position-2__ESES_713x\.jpg\?v\=1662986476\'\)\] {
@@ -912,8 +805,48 @@ video {
   background-image: url('https://mac-center.com/cdn/shop/products/IMG-5245887_a113ffcd-9ded-4cf9-8d37-68eaf5678215_713x.jpg?v=1660678903');
 }
 
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6206251_713x\.jpg\?v\=1661520210\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6206251_713x.jpg?v=1661520210');
+}
+
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6376495_713x\.jpg\?v\=1660429014\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6376495_713x.jpg?v=1660429014');
+}
+
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6376523_713x\.jpg\?v\=1660430899\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6376523_713x.jpg?v=1660430899');
+}
+
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-6590257_713x\.jpg\?v\=1660431696\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-6590257_713x.jpg?v=1660431696');
+}
+
 .bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-674207_713x\.jpg\?v\=1658309143\'\)\] {
   background-image: url('https://mac-center.com/cdn/shop/products/IMG-674207_713x.jpg?v=1658309143');
+}
+
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-7379875_713x\.jpg\?v\=1678215692\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-7379875_713x.jpg?v=1678215692');
+}
+
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-7379982_713x\.jpg\?v\=1673377317\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-7379982_713x.jpg?v=1673377317');
+}
+
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-7380043_713x\.jpg\?v\=1673373173\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-7380043_713x.jpg?v=1673373173');
+}
+
+.bg-\[url\(\'https\:\/\/mac-center\.com\/cdn\/shop\/products\/IMG-8943534_713x\.jpg\?v\=1678908919\'\)\] {
+  background-image: url('https://mac-center.com/cdn/shop/products/IMG-8943534_713x.jpg?v=1678908919');
+}
+
+.bg-\[url\(\'https\:\/\/tiendasishop\.com\/media\/catalog\/product\/m\/v\/mv7n2lz_a_1\.jpg\'\)\] {
+  background-image: url('https://tiendasishop.com/media/catalog/product/m/v/mv7n2lz_a_1.jpg');
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .from-blue-600 {
@@ -1015,24 +948,14 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-slate-700 {
-  --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
-.text-red-700 {
-  --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
-}
-
 .text-slate-800 {
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -1047,13 +970,67 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-slate-200 {
   --tw-shadow-color: #e2e8f0;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:max-w-6xl {
+    max-width: 72rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .xl\:max-w-6xl {
+    max-width: 72rem;
+  }
+
+  .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
 }
